@@ -1,0 +1,377 @@
+@font-face {
+    font-family: FranklinGothic;
+    src: url(../fonts/FRABK.ttf);
+}
+@font-face {
+    font-family: RevereNormal;
+    src: url(../fonts/TTREVERE.ttf);
+}
+@font-face {
+    font-family: Candara;
+    src: url(../fonts/Candara.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fffefa;
+}
+.container{
+    width: 100%;
+    min-height: 2334px;
+    background-color: #fffefa;
+}
+header{
+    width: 100%;
+    height: 149px;
+    background-color: #fffefa;
+    background-image:url(../images/logo_with_bg.png);
+    background-repeat: no-repeat;
+    background-position: 50% 35%;
+}
+p#moto{
+    text-align: center;
+    padding-top: 90px;
+    font-size: 11px;
+    color: #898989;
+    font-family: FranklinGothic;
+    font-weight: 300;
+    text-transform: uppercase;
+    
+}
+.grey_border{
+    width: 1168px;
+    height: 1px;
+    margin: 0 auto;
+    background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fffefa+0,c6c5c2+30,c6c5c2+70,fffefa+100 */
+background: #fffefa; /* Old browsers */
+background: -moz-linear-gradient(left,  #fffefa 0%, #c6c5c2 30%, #c6c5c2 70%, #fffefa 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#fffefa), color-stop(30%,#c6c5c2), color-stop(70%,#c6c5c2), color-stop(100%,#fffefa)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #fffefa 0%,#c6c5c2 30%,#c6c5c2 70%,#fffefa 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #fffefa 0%,#c6c5c2 30%,#c6c5c2 70%,#fffefa 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #fffefa 0%,#c6c5c2 30%,#c6c5c2 70%,#fffefa 100%); /* IE10+ */
+background: linear-gradient(to right,  #fffefa 0%,#c6c5c2 30%,#c6c5c2 70%,#fffefa 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffefa', endColorstr='#fffefa',GradientType=1 ); /* IE6-9 */
+
+
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #fffefa;
+}
+nav ul{
+    margin-left: 18.5%;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #5f5e5e;
+    font-size: 14px;
+    font-family: FranklinGothic;
+}
+nav ul li a:hover{
+    color: #e6a549;
+}
+.nav_search{
+    width: 230px;
+    height: 34px;
+    float: right;
+    margin-right: 19.1%;
+    margin-top: 8px;
+    position: relative;
+}
+input[name="nav_search"]{
+    width: 220px;
+    height: 34px;
+    border: none;
+    background-image: url(../images/Warstwa-3.png);
+    background-repeat: no-repeat;
+    padding-left: 10px;
+}
+.nav_search_icon{
+    width: 15px;
+    height: 34px;
+    position: absolute;
+    right: 15px;
+    line-height: 34px;
+    color: #666666;
+}
+.slider{
+    width: 960px;
+    height: 431px;
+    margin: 50px auto 80px auto;
+    font-family: RevereNormal;
+}
+.about{
+    font-family: RevereNormal;
+    width: 960px;
+    height: 111px;
+    margin: 0 auto;
+    padding: 35px 20px;
+    box-shadow: 0px 0px 5px 0.00px rgba(0, 0, 0, 0.33);
+}
+.about p{
+    font-size: 21px;
+    text-align: center;
+    font-weight: 400;
+    color: #3b3b3b;
+}
+#yellow_letter{
+    color: #eea74d;
+}
+.recent_work{
+    width: 960px;
+    height: 500px;
+    margin: 20px auto;
+}
+.recent_work h4{
+    font-size: 17px;
+    font-family: FranklinGothic;
+    padding: 30px 0;
+}
+.recent_work_unit{
+    width: 240px;
+    height: 198px;
+    background-color: #393939;
+    float: left;
+    transition: .1s;
+}
+.recent_work_unit:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.recent_work_unit_yellow:hover, .recent_work_unit_grey:hover, .recent_work_unit_darkgrey:hover, .recent_work_unit_lightgrey:hover{
+    transform: scale(1.0);
+    cursor: pointer;
+}
+.recent_work_unit_yellow{
+    background-color: #d4a258;
+}
+.recent_work_unit_grey{
+    background-color: #757575;
+}
+.recent_work_unit_darkgrey{
+    background-color: #393939;
+}
+.recent_work_unit_lightgrey{
+    background-color: #c0c0c0;
+}
+.recent_work_unit_yellow, .recent_work_unit_grey, .recent_work_unit_darkgrey, .recent_work_unit_lightgrey{
+    background-image: url(../images/searcg_icon.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.author_and_blogpost{
+    width: 960px;
+    height: 370px;
+    margin: 45px auto;
+}
+.author_info{
+    width: 440px;
+    height: 400px;
+    float: left;
+}
+.author_info h3, .blog_post h3{
+    font-size: 17px;
+    font-family: FranklinGothic;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.author_info p{
+    font-size: 13px;
+    font-family: FranklinGothic;
+    line-height: 23px;
+    color: #141313;
+    font-weight: 300;
+    
+}
+.blog_post{
+    width: 450px;
+    height: 400px;
+    float: right;
+}
+.blog_unit{
+    width: 450px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.blog_image{
+    width: 88px;
+    height: 76px;
+    float: left;
+}
+.blog_detail{
+    width: 351px;
+    height: 80px;
+    float: right;
+}
+#blog_initial{
+    font-family: FranklinGothic;
+    font-size: 13px;
+    font-weight: 300;
+    color: #6b6a6a;
+}
+#blog_name{
+    font-style: italic;
+    color: #d4a258;
+    font-weight: 300;
+    font-size: 12px;
+}
+#blog_text{
+    font-size: 13px;
+    line-height: 23px;
+    font-family: FranklinGothic;
+    color: #141313;
+}
+button[id="read_left"]{
+    width: 139px;
+    height: 34px;
+    background-image: url(../images/Warstwa-3.png);
+    border: none;
+    position: absolute;
+    left: 610px;
+    top: 1797px;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 13px;
+    color: #393939;
+    cursor: pointer;
+}
+button[id="read_right"]{
+    width: 139px;
+    height: 34px;
+    background-image: url(../images/Warstwa-3.png);
+    border: none;
+    position: absolute;
+    right: 312px;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 13px;
+    color: #393939;
+    cursor: pointer;
+}
+
+.fa-angle-double-right{
+    padding:0 5px;
+}
+.grey_border_thin{
+    height: 5px;
+    background-color: 
+}
+.social_info_search_by{
+    width: 100%;
+    height: 451px;
+    background-image: url(../images/social_bg.jpg);
+}
+.social{
+    width: 300px;
+    height: 320px;
+    float: left;
+    margin-left: 19.6%;
+    margin-right: 20px;
+     margin-top: 40px;
+}
+.info{
+    width: 300px;
+    height: 320px;
+    float: left;
+    margin-top: 40px;
+}
+.search_by{
+    width: 300px;
+    height: 400px;
+    float: right;
+    margin-right: 19.6%;
+     margin-top: 40px;
+}
+.social h4, .info h4, .search_by h4{
+    font-size: 15px;
+    font-weight: 300;
+    font: 300 15px FranklinGothic;
+    color: #241103;
+    padding-bottom: 30px;
+}
+.social p, .info p, .search_by p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #241103;
+    font-family: Candara;
+}
+.column1, .column2{
+    width: 130px;
+    height: 320px;
+}
+.column1{
+    float: left;
+    margin-right: 10px;
+}
+.column2{
+    float: right;
+}
+.column1 ul li, .column2 ul li{
+    list-style: none;
+}
+.column1 ul li a, .column2 ul li a{
+    text-decoration: none;
+    color: #858484;
+    font-size: 12px;
+    line-height: 30px;
+    font-style: italic;
+    font-weight: 300;
+    font-family: FranklinGothic;
+}
+.social_tab{
+    width: 270px;
+    height: 30px;
+    margin-top: 220px;
+}
+.social_icon{
+    width: 29px;
+    height: 29px;
+    background-color: #6f6f6f;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+}
+.fa-facebook, .fa-rss{
+    line-height: 29px;
+    margin-left: 10.5px;
+    color: #ffffff;
+    font-size: 12px;
+}
+.fa-envelope{
+    line-height: 29px;
+    margin-left: 8px;
+    color: #ffffff;
+    font-size: 12px;
+}
+.social_icon:hover{
+    background-color: #d7a863;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #fffefa;
+}
+.developed_by{
+    color: #6b6a6a;
+    font-size: 13px;
+    line-height: 50px;
+    width: 130px;
+    height: 50px;
+    float: right;
+    margin-right: 19.6%;
+    background-image: url(../images/rrlogo.PNG);
+    background-repeat: no-repeat;
+    background-position: right;
+}
